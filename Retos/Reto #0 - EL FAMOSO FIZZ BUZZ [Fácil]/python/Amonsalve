@@ -1,0 +1,19 @@
+class FizzBuzz:
+
+    i = 1
+    for i in range(1, 101):
+        i+1
+        if i % 3 == 0 and i % 5 == 0:
+            reemplazo = "FizzBuzz"
+            i = reemplazo
+            print(i)
+        elif i % 3 == 0:
+            reemplazo = "Fizz"
+            i = reemplazo
+            print(i)
+        elif i % 5 == 0:
+            reemplazo = "Buzz"
+            i = reemplazo
+            print(i)
+        else:
+            print(i)
